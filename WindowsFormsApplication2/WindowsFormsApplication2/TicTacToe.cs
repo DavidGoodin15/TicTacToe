@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication2
 {
-    public partial class Form1 : Form
+    public partial class TicTacToe : Form
     {
 
         private bool player1Turn = true; // true = x turn; false= y turn
@@ -18,8 +18,8 @@ namespace WindowsFormsApplication2
         private int turn_count = 0;
         // private static string player1, player2;
 
+        public TicTacToe()
 
-        public Form1()
         {
             InitializeComponent();
         }
@@ -174,15 +174,7 @@ namespace WindowsFormsApplication2
             return null;
         }
 
-        private Button look_For_Winnner_Winner_Chicken_DInner(string mark)
-        {
-            Console.WriteLine("Looking for win or block:   " + mark);
-
-            
-            {
-                
-            }
-        }
+       
 
         private Button look_for_win_or_block(string mark)
         {
